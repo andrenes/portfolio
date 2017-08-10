@@ -5,7 +5,7 @@ html{
 .hero {
   font-weight: bold;
   color: white;
-  background-image: url(https://goo.gl/photos/3JooUGwnSk8D8wgB9);
+  background-image: url(/resources/images/TRideTreeBackground.png);
 
   /*background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 */
