@@ -5,7 +5,10 @@ html{
 .hero {
   font-weight: bold;
   color: white;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-image: url(images/TRideTreeBackground.png)
+
+  /*url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+*/
 }
 .hero h1 {
   font-size: 70px;
@@ -13,6 +16,7 @@ html{
 .btn-nav {
   font-size: 18px;
   color: white;
+  padding-bottom: 2rem;
 }
 h1, h2, h3 {
   font-weight: bold;
@@ -30,4 +34,14 @@ h1, h2, h3 {
   background-color: dimgray;
   font-size: 11px;
   color: white;
+}
+@@media only screen and (max-wdith: 1280px) {
+html {
+  max-width: 90%;
+}
+}
+body{
+max-width: 1080px;
+margin: 0 auto !important;
+float: none !important;
 }
