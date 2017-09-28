@@ -16,7 +16,10 @@ html{
 .btn-nav {
   font-size: 18px;
   color: white;
-  padding-bottom: 2rem;
+  text-decoration: none;
+}
+a:hover {
+  text-shadow: 2px 2px darkgray;
 }
 h1, h2, h3 {
   font-weight: bold;
